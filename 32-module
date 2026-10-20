@@ -1,0 +1,18 @@
+"use strict";
+
+export const productoAmazon = {
+    titulo: "COOFANDY - Camisas de franela de manga larga para hombre",
+    precio: 31.99,
+    precioFinal: 34.99,
+    descuento: 9,
+    color: "Negro",
+    tallasDisponibles: ["S", "M", "L", "XL", "XXL"]
+};
+
+export const calcularAhorro = (precio, oferta) => {
+    return (precio - oferta).toFixed(2);
+};
+
+export default function obtenerResumenProducto(producto) {
+    return `Producto: ${producto.titulo} | Precio: $${producto.precioActual} | Color: ${producto.color})`;
+}
