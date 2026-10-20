@@ -1,5 +1,4 @@
 //Almacenamiento local de ciertos datos 
-
 "use strict"; //control de errores
 const gestionarProductoAPI = async () => {
     try {
